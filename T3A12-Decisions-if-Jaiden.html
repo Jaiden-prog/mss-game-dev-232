@@ -1,0 +1,31 @@
+<h1 align=center>T3A12-Decisions-if-Jaiden.html</h1> 
+
+
+
+<pre> 
+|| means OR 
+&& means AND 
+! means NOT 
+</pre> 
+<input id="myText01" type=text value=3 ><br><br> 
+<input type=button value="Show X" onclick="{ 
+    x = document.getElementById('myText01').value 
+    myTemp = 'X is 3' 
+    if (x >= 2){myTemp = 'X is 3'} 
+    document.getElementById('mySpan01').innerHTML = myTemp 
+
+}"><br><br> 
+<span id="mySpan01">...</span>  
+
+</pre>
+<input id="myText01" type=text value=4 ><br><br> 
+<input type=button value="Show X" onclick="{
+    x = document.getElementById('myText01').value
+    myTemp = 'X is 4'
+    if (x >= 2){myTemp = 'X is 4'} 
+    document.getElementById('mySpan01').innerHTML = myTemp
+
+}'><br><br> 
+<span id="mySpan01">...</span>
+ 
+
